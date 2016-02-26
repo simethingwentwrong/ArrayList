@@ -143,12 +143,7 @@ public class ArrayList
      */
     public boolean isEmpty()
     {
-        boolean empty = false;
-        if ( listaLista.length == 0)
-        {
-            empty = true;
-        }
-        return empty;
+        return listaLista.length == 0;
     }
     
     /**
